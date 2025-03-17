@@ -376,6 +376,7 @@
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/ShowHide.cs"
 "Assets/Scripts/Slider_score.cs"
+"Assets/Scripts/Time_s.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

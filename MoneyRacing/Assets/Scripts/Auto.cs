@@ -14,7 +14,7 @@ public class Auto : MonoBehaviour
     }
     void Update()
     {
-        if (GameMgr.Instance.levelUp == false)
+        if (GameMgr.Instance.levelUp == false && GameMgr.Instance.gameOver == false)
         {
             Random_Spawn();
             time = time + 1;

@@ -5,6 +5,10 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class Level : MonoBehaviour
 {
+    void Start()
+    {
+        GameMgr.Instance.slider.maxValue = 5;
+    }
     void Update()
     {
         LevelSystem();
